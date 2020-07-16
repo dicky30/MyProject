@@ -1,0 +1,8 @@
+nav ul li {
+    top: 0px;
+    background-color: tomato;
+    padding: 5px;
+    position: sticky;
+    list-style-type: none;
+    display: inline-block;
+}

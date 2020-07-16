@@ -1,0 +1,742 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.tagline p q {
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 20px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    width: 30%;
+    height: 200px;
+}
+
+
+
+
+/* Header */
+
+.container0 .img-header {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+.container0 .logo img {
+    border-radius: 0 0 20px 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* navigasi setting */
+.navigasi {
+    top: 632px;
+    position: absolute;
+    background-color: #142850;
+    padding: 0 100px;
+    left: 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navigasi h3 {
+    color: white;
+    font-family: 'Josefin Slab', serif;
+    padding-left: 0px;
+    letter-spacing: 2px;
+    font-size: 36px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+}
+
+.navigasi img {
+    object-fit: cover;
+    width: 45px;
+    align-content: center;
+    line-height: 45px;
+}
+
+.navigasi ul {
+    display: flex;
+
+    padding: 0px;
+    width: 50%;
+    justify-content: space-around;
+    list-style-type: none;
+    letter-spacing: 2px;
+    float: right;
+}
+
+.navigasi .hamburger-menu {
+    display: none;
+    position: relative;
+}
+
+nav ul li a {
+    font-family: 'Poppins', sans-serif;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 0 20px;
+    display: block;
+
+}
+
+.navigasi li a:hover {
+    font-weight: bold;
+    text-shadow: white;
+    background: #dae1e7;
+    display: block;
+    color: #323131;
+}
+
+/* Hamburger Menu */
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-around;
+}
+.hamburger-menu span {
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    border-radius: 3px;
+}
+.hamburger-menu input {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    opacity: 0;
+    left: -5px;
+    cursor: pointer;
+}
+/* animasi humberger menu */
+.hamburger-menu span:nth-child(2) {
+    transform-origin: 0 0;
+}
+.hamburger-menu input:checked ` span:nth-child(2) {
+    transform: rotate(45deg);
+}
+
+
+/* konten bawah nav */
+.container1 {
+    width: 100%;
+    height: 396px;
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: lightcoral; */
+}
+
+.konten-kiri {
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+
+    color: #323131;
+    height: 303px;
+}
+
+
+
+.konten-kiri p {
+    text-align: center;
+    align-items: center;
+    font-size: 55px;
+    letter-spacing: 2px;
+    padding: 90px;
+    /* background-color: lawngreen; */
+}
+
+.konten-kiri span {
+    color: #47ada7;
+}
+
+.konten-Kanan {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: maroon; */
+}
+.konten-Kanan p {
+    justify-content: center;
+}
+.konten-Kanan a {
+    color: #47ada7;
+    text-decoration: none;
+}
+
+
+.konten-Kanan .akun {
+    font-size: 18px;
+    text-align: center;
+}
+
+.konten-Kanan .login {
+    /* identical to box */
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    width: 120px;
+    height: 50px;
+    background-color: #142850;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px #142850;
+
+    /*properti text */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 1em auto;
+}
+.konten-Kanan .login p {
+    justify-items: center;
+}
+
+.konten-Kanan .login:hover {
+    background-color: #47ada7;
+    box-shadow: 1px 2px 8px #47ada7;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+
+
+/* bagian bawah halaman 2 */
+
+.container2 {
+    width: 100%;
+    display: flex;
+}
+
+.baris1 {
+    display: flex;
+    margin: 10% auto;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 50px auto;
+}
+
+.baris1 div {
+    flex: 1;
+    width: 100px;
+    text-align: center;
+}
+.baris1 div img, p {
+    padding: 5px;
+}
+h2 {
+    text-align: center;
+}
+
+.baris2 {
+    display: flex;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.baris2 div {
+    text-align: center;
+    margin: 50px; 
+}
+.baris2 div img, p {
+    padding: 10px;
+}
+.baris2 .card:hover {
+    cursor: pointer;
+}
+.main {
+    flex: 3;
+}
+
+.sponsor {
+    flex: 1;
+    width: 100%;
+    background-color: #142850;
+}
+
+.sponsor img {
+    padding: 70px;
+    align-content: space-between;
+}
+
+.card {
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    width: 150px;
+}
+
+.card img {
+    width: 100px;
+}
+
+/* profil dan sign up */
+.container3 {
+    background: -webkit-linear-gradient(top, #142850, #27496d);
+    padding: 12px 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.bungkus {
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    border-radius:20px;
+    background-color: white;
+    height: 350px;
+    /* margin: 0rem auto 7.1rem auto; */
+    width: 400px;
+    font-family: 'Josefin Slab', serif;
+}
+
+.garis-bawah {
+    background: -webkit-linear-gradient(right, #3242D1, #47ada7);
+    height: 2px;
+    margin: 0.5rem auto 0 auto;
+    width: 110px;
+}
+
+a {
+    text-decoration: none;
+}
+
+label {
+    font-size: 14px;
+}
+
+.form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+.garis-border {
+    background: -webkit-linear-gradient(right, #27496d, #47ada7);
+    height: 1px;
+    width: 300px;
+    margin: -0.5rem auto 1.2rem auto;
+}
+.form-content {
+    margin: -0.1rem 4rem 1.0rem 4rem;
+    border: none;
+    outline: none;
+    padding-top: 5px;
+}
+
+#submit-tbl {
+    background: -webkit-linear-gradient(right, #27496d, #47ada7);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 1px 8px #27496d;
+    cursor: pointer;
+    color: white;
+    
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 20px;
+    transition: 0.25s;
+    width: 153px;
+}
+
+/* Data Profil */
+.box {
+    width: 450px;
+    height: 350px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    border-radius: 20px;
+    padding-top: 10px;
+    background-color: #ffffff;
+    color: #47ada7;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 50px;
+    /* posisi */
+
+    /* display: flex; */
+    /* flex-direction: column;
+    align-content: center; */
+    justify-content: space-around;
+}
+
+.profil .box img {
+    width: 150px;
+    padding-bottom: 0px;
+}
+
+aside {
+    margin: 0px;
+    /* width: 100%; */
+}
+
+.profil p {
+    text-align: center;
+    color: #47ADA7;
+}
+
+footer {
+    color: #272727;
+    text-align: center;
+}
+
+
+
+/* Tampilan Responsive */
+
+/* Ukuran Tablet */
+@media screen and (max-width: 768px) {
+    /* awal navigasi */
+    nav ul {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        font-size: 60%;
+    }
+    .navigasi img {
+        width: 10%;
+        font-size: 10%;
+    }
+    .navigasi .logo {
+        font-size: 100%;
+    }
+    .navigasi {
+        /* display: none; */
+        justify-content: space-evenly;
+        top: 51.5%;
+    }
+    .container0 .tagline p q {
+        font-size: 100%;
+        top: 20%;
+    }
+    /* akhir navigasi */
+
+    /* Text bawah Header */
+    .container1 {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 100%;
+        margin-top: 46px;
+    }
+    .konten-kiri {
+      
+        align-items: center;
+        
+    }
+    .konten-kiri p {
+        font-size: 32px;
+        padding: 20px;
+        letter-spacing: 1px;
+        width: 50%;
+        align-items: center;
+        /* background-color: yellow; */
+    }
+    .konten-Kanan .login {
+        /* identical to box */
+        display: flex;
+        padding: 10px;
+        cursor: pointer;
+        width: 30%;
+        height: 50%;
+        background-color: white;
+        border-radius: 10px; 
+
+        /*properti text */
+        color: #47ada7;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 50%;
+        font-size: 100%;
+        align-items: center;
+        font-weight: bold;
+        margin: 1em auto;
+    }
+    .konten-Kanan .akun {
+        font-size: 90%;
+    }
+
+    /* container 2 */
+    .container2 {
+        margin-top: 15px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    .container2 .main .baris1 {
+        font-size: 100%;
+    }
+    .container2 h2 {
+        font-size: 100%;
+    }
+    .container2 .main .baris2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .container2 .main .baris2 .card {
+        font-size: 100%;
+        width: 30%;
+    }
+    .container2 .sponsor {
+        width: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .container2 .sponsor img {
+        width: 80%;
+    }
+    /* akhir container 2 */
+
+    /* container 3  */
+    .container3 {
+        width: 562px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .bungkus {
+        margin-left: -10px;
+        width: 100%;
+        margin-right: 20px;
+    }
+    .container3 .bungkus h2 {
+        font-size: 100%;
+    }
+    .container3 .bungkus .garis-bawah {
+        margin: 3% auto 2% auto;
+    }
+    .container3 .bungkus .form label {
+        font-size: 80%;
+    }
+    .garis-border {
+        height: 1px;
+        width: 170px;
+        margin: -0.5rem auto 1.2rem auto;
+    }
+    
+    .box{
+        width: 80%;
+        height: 100%;
+        box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+        border-radius: 20px;
+        padding-top: 10px;
+        background-color: #ffffff;
+        color: #47ada7;
+        text-align: center;
+        letter-spacing: 2px;
+        line-height: 50px;
+        font-size: 90%;
+        padding: 0 20px;
+    }
+    .profil .box img {
+        width: 50%;
+        padding-top: 20px;
+    }
+    .box .nama, .alamat,
+    .email {
+        font-size: 100%;
+        padding-bottom: 5px;
+    }
+
+/* Ukurang Mobile */
+@media screen and (max-width: 576px) {
+    
+    .tagline p q {
+        font-size: 100%;
+        padding: 0 20px;
+        color: white;
+        position: absolute;
+        top: 10%;
+        width: 40%;
+        height: 200px;
+    }
+    
+    .navigasi {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        top: 226.4px;
+    }
+    .navigasi .logo {
+
+    }
+    .navigasi .hamburger-menu {
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        right: 0px;
+        margin: 13px;
+    }
+    nav {
+        width: 100%;
+        height: 50px;
+        display: none;
+        left: 0px;
+        padding: 0px;
+        /* background-color: tomato; */
+    }
+    nav ul a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        top: 50px;
+        left: 0px;
+
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        color: #ffffff;  
+    }
+
+    nav ul li a:hover {
+        color: white;
+        width: 100%;
+       
+        font-weight: bold;
+        /* display: block; */
+    }
+    /* Akhir Navigasi */
+
+    .container1 {
+        width: 100%;
+        height: 300px;
+        margin-top: 50px;
+        
+        display: flex;
+
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .konten-kiri {
+        text-align: center;
+        display: flex;
+
+        justify-content: center;
+        font-size: 55px;
+        color: #323131;
+        height: 303px;
+        
+    }
+    
+    .konten-kiri p {
+        align-items: center;
+    }
+    
+    .konten-kiri span {
+        color: #47ada7;
+    }
+    
+    .konten-Kanan a {
+        color: #47ada7;
+        text-decoration: none;
+    }
+    
+    .konten-Kanan .akun {
+        font-size: 18px;
+        text-align: center;
+    }
+    /* akhir container 1 */
+
+    /* awal container 2 */
+    .baris1 img {
+        width: 50%;
+    }
+    .baris1 p {
+        font-size: 90%;
+        padding: 0 10px;
+    }
+    .main h2 {
+        font-size: 25px;
+    }
+    .baris2 img {
+        width: 80%;
+        padding-bottom: 10px;
+    }
+    /* akhir container 2 */
+
+    /* awal container 3 */
+    .container3 {
+        width: 81.8%;
+    }
+    .bungkus {
+        width: 50%;
+        font-size: 80%;
+        height: 50%;
+    }
+    #submit-tbl {
+        height: 42.3px;
+        margin: 0 auto;
+        margin-top: 5px;
+        transition: 0.25s;
+        width: 153px;
+        font-size: 80%;
+        width: 100px;
+        border-radius: 10px;
+    }
+    .box {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .box img {
+        align-items: center;
+        padding: 0 40px;
+    }
+    .box .Nama {
+        text-align: center;
+        box-sizing: border-box;
+        font-size: 9px;
+        font-weight: bold;
+    }
+    .box .alamat, .email {
+        font-size: 55%;
+        box-sizing: border-box;
+    }
+
+    .form-content {
+        margin: -0.1rem 1rem 1.0rem 1rem;
+        border: none;
+        outline: none;
+        padding-top: 5px;
+    }
+    /* akhir container 3 */
